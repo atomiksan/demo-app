@@ -1,0 +1,39 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4">About Us</h1>
+                        <p class="lead text-center">This demo project showcases a deployment pipeline for a Go web app using Azure Pipelines, and it is meant for demonstrating the technical capabilities of the pipeline setup.</p>
+                        <p class="text-center text-muted">The pages are static and for demonstration purposes only.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}
+
+{{define "css"}}
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border-radius: 15px;
+        }
+        h1 {
+            color: #495057;
+            font-weight: bold;
+        }
+        p.lead {
+            font-size: 1.25rem;
+            color: #343a40;
+        }
+        p.text-muted {
+            font-size: 0.9rem;
+        }
+    </style>
+{{end}}
